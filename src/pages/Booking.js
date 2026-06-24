@@ -119,8 +119,8 @@ export default function Booking() {
             </div>
           </div>
           <p className="success-note">
-            📍 Visit us at: Main Road, Erode, Tamil Nadu – 638001<br />
-            📞 Questions? Call us at +91 XXXXX XXXXX
+            📍 Visit us at: Near Indian Bank, Periyar Silai, Orathanadu, Thanjavur, Tamil Nadu – 614625<br />
+            📞 Questions? Call us at +91 8072404851
           </p>
           <button onClick={handleReset} className="btn btn--primary">Book Another Appointment</button>
         </div>
@@ -270,18 +270,18 @@ export default function Booking() {
           <div className="sidebar-card">
             <h3>🕐 Working Hours</h3>
             <div className="hours-list">
-              <div className="hours-row"><span>Mon – Fri</span><strong>9:30 AM – 7:00 PM</strong></div>
-              <div className="hours-row"><span>Saturday</span><strong>9:30 AM – 6:00 PM</strong></div>
-              <div className="hours-row hours-row--closed"><span>Sunday</span><strong>Closed*</strong></div>
+              <div className="hours-row"><span>Mon – Fri</span><strong>9:30 AM – 9:30 PM</strong></div>
+              <div className="hours-row"><span>Saturday</span><strong>9:30 AM – 8:30 PM</strong></div>
+              <div className="hours-row hours-row--closed"><span>Sunday</span><strong>10:30 AM – 7:30 PM</strong></div>
             </div>
             <p className="sidebar-note">*Emergency repairs on call for Sundays</p>
           </div>
 
           <div className="sidebar-card">
             <h3>📍 Our Location</h3>
-            <p>Periyar Mobiles<br />Main Road, Erode<br />Tamil Nadu – 638001</p>
+            <p>Periyar Mobiles<br />Near Indian Bank, Periyar Silai, Orathanadu, Thanjavur<br />Tamil Nadu – 614625</p>
             <a
-              href="https://maps.google.com/?q=Erode+Tamil+Nadu"
+              href="https://www.google.com/maps/place/Periyar+Mobiles/@10.627159,79.2482549,93m/data=!3m1!1e3!4m6!3m5!1s0x3baab1b14a0328b7:0xd666afbdb3a4ff6d!8m2!3d10.6271584!4d79.2484887!16s%2Fg%2F11qb3bv8l3?entry=ttu&g_ep=EgoyMDI2MDYyMS4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noreferrer"
               className="btn btn--outline btn--sm"
@@ -294,7 +294,7 @@ export default function Booking() {
             <h3>💬 Prefer WhatsApp?</h3>
             <p>Send us a WhatsApp message with your phone issue and we'll reply instantly.</p>
             <a
-              href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%20want%20to%20book%20a%20repair%20appointment"
+              href="https://wa.me/918072404851?text=Hi%2C%20I%20want%20to%20book%20a%20repair%20appointment"
               target="_blank"
               rel="noreferrer"
               className="btn btn--white"

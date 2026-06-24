@@ -43,7 +43,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero__container">
           <div className="hero__content">
-            <span className="hero__badge">⭐ Trusted Service Center in Erode</span>
+            <span className="hero__badge">⭐ Trusted Service Center in Orathanadu</span>
             <h1 className="hero__title">
               Your phone fixed <span className="hero__title-accent">fast</span>, done right.
             </h1>
@@ -59,9 +59,9 @@ export default function Home() {
               </Link>
             </div>
             <div className="hero__contact-strip">
-              <a href="tel:+91XXXXXXXXXX" className="contact-chip">📞 Call Us</a>
-              <a href="https://wa.me/91XXXXXXXXXX" className="contact-chip contact-chip--green" target="_blank" rel="noreferrer">💬 WhatsApp</a>
-              <span className="contact-chip contact-chip--muted">📍 Main Road, Erode</span>
+              <a href="tel:+918072404851" className="contact-chip">📞 Call Us</a>
+              <a href="https://wa.me/918072404851" className="contact-chip contact-chip--green" target="_blank" rel="noreferrer">💬 WhatsApp</a>
+              <span className="contact-chip contact-chip--muted">📍 Near Indian Bank, Periyar Silai, Orathanadu, Thanjavur, TN ,614625</span>
             </div>
           </div>
           <div className="hero__visual">

@@ -46,29 +46,29 @@ export default function Contact() {
       <div className="contact-section">
         <div className="contact-section__container">
           <div className="contact-cards">
-            <a href="tel:+91XXXXXXXXXX" className="contact-card contact-card--link">
+            <a href="tel:+918072404851" className="contact-card contact-card--link">
               <div className="contact-card__icon">📞</div>
               <h3>Call Us</h3>
-              <p>+91 XXXXX XXXXX</p>
+              <p>+91 8072404851</p>
               <span className="contact-card__action">Tap to call</span>
             </a>
-            <a href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%20need%20phone%20repair%20help" target="_blank" rel="noreferrer" className="contact-card contact-card--link contact-card--green">
+            <a href="https://wa.me/918072404851?text=Hi%2C%20I%20need%20phone%20repair%20help" target="_blank" rel="noreferrer" className="contact-card contact-card--link contact-card--green">
               <div className="contact-card__icon">💬</div>
               <h3>WhatsApp</h3>
-              <p>+91 XXXXX XXXXX</p>
+              <p>+91 8072404851</p>
               <span className="contact-card__action">Chat with us</span>
             </a>
             <div className="contact-card">
               <div className="contact-card__icon">📍</div>
               <h3>Visit Us</h3>
               <p>Main Road, Erode<br />Tamil Nadu – 638001</p>
-              <a href="https://maps.google.com/?q=Erode+Tamil+Nadu" target="_blank" rel="noreferrer" className="contact-card__action">Get directions →</a>
+              <a href="https://www.google.com/maps/place/Periyar+Mobiles/@10.627159,79.2482549,93m/data=!3m1!1e3!4m6!3m5!1s0x3baab1b14a0328b7:0xd666afbdb3a4ff6d!8m2!3d10.6271584!4d79.2484887!16s%2Fg%2F11qb3bv8l3?entry=ttu&g_ep=EgoyMDI2MDYyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer" className="contact-card__action">Get directions →</a>
             </div>
             <div className="contact-card">
               <div className="contact-card__icon">✉️</div>
               <h3>Email</h3>
-              <p>info@periyarmobiles.com</p>
-              <a href="mailto:info@periyarmobiles.com" className="contact-card__action">Send email →</a>
+              <p>periyarezhilan5@gmail.com</p>
+              <a href="mailto:periyarezhilan5@gmail.com" className="contact-card__action">Send email →</a>
             </div>
           </div>
 
@@ -80,9 +80,9 @@ export default function Contact() {
                 <div className="map-placeholder__inner">
                   <span className="map-pin">📍</span>
                   <strong>Periyar Mobiles</strong>
-                  <span>Main Road, Erode, Tamil Nadu</span>
+                  <span>Near Indian Bank, Periyar Silai, Orathanadu, Thanjavur, Tamil Nadu</span>
                   <a
-                    href="https://maps.google.com/?q=Erode+Tamil+Nadu"
+                    href="https://www.google.com/maps/place/Periyar+Mobiles/@10.627159,79.2482549,93m/data=!3m1!1e3!4m6!3m5!1s0x3baab1b14a0328b7:0xd666afbdb3a4ff6d!8m2!3d10.6271584!4d79.2484887!16s%2Fg%2F11qb3bv8l3?entry=ttu&g_ep=EgoyMDI2MDYyMS4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn--primary btn--sm"
@@ -106,31 +106,31 @@ export default function Contact() {
                   <tbody>
                     <tr>
                       <td>Monday</td>
-                      <td><span className="open-badge">Open</span> 9:30 AM – 7:00 PM</td>
+                      <td><span className="open-badge">Open</span> 9:30 AM – 9:30 PM</td>
                     </tr>
                     <tr>
                       <td>Tuesday</td>
-                      <td><span className="open-badge">Open</span> 9:30 AM – 7:00 PM</td>
+                      <td><span className="open-badge">Open</span> 9:30 AM – 9:30 PM</td>
                     </tr>
                     <tr>
                       <td>Wednesday</td>
-                      <td><span className="open-badge">Open</span> 9:30 AM – 7:00 PM</td>
+                      <td><span className="open-badge">Open</span> 9:30 AM – 9:30 PM</td>
                     </tr>
                     <tr>
                       <td>Thursday</td>
-                      <td><span className="open-badge">Open</span> 9:30 AM – 7:00 PM</td>
+                      <td><span className="open-badge">Open</span> 9:30 AM – 9:30 PM</td>
                     </tr>
                     <tr>
                       <td>Friday</td>
-                      <td><span className="open-badge">Open</span> 9:30 AM – 7:00 PM</td>
+                      <td><span className="open-badge">Open</span> 9:30 AM – 9:30 PM</td>
                     </tr>
                     <tr>
                       <td>Saturday</td>
-                      <td><span className="open-badge">Open</span> 9:30 AM – 6:00 PM</td>
+                      <td><span className="open-badge">Open</span> 9:30 AM – 8:30 PM</td>
                     </tr>
                     <tr>
                       <td>Sunday</td>
-                      <td><span className="closed-badge">Closed</span> Emergency on call</td>
+                      <td><span className="open-badge">Open</span> 10:30 AM – 7:30 PM</td>
                     </tr>
                   </tbody>
                 </table>
