@@ -271,8 +271,8 @@ export default function Booking() {
             <h3>🕐 Working Hours</h3>
             <div className="hours-list">
               <div className="hours-row"><span>Mon – Fri</span><strong>9:30 AM – 9:30 PM</strong></div>
-              <div className="hours-row"><span>Saturday</span><strong>9:30 AM – 8:30 PM</strong></div>
-              <div className="hours-row hours-row--closed"><span>Sunday</span><strong>10:30 AM – 7:30 PM</strong></div>
+              <div className="hours-row"><span>Saturday</span><strong>9:30 AM – 9:30 PM</strong></div>
+              <div className="hours-row hours-row--closed"><span>Sunday</span><strong>9:30 AM – 9:30 PM</strong></div>
             </div>
             <p className="sidebar-note">*Emergency repairs on call for Sundays</p>
           </div>

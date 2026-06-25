@@ -6,12 +6,12 @@ const stats = [
   { num: '2500+', label: 'Phones Repaired' },
   { num: '30 Days', label: 'Service Warranty' },
   { num: '1–2 Hrs', label: 'Most Repairs Done' },
-  { num: '10+', label: 'Years Experience' },
+  { num: '5+', label: 'Years Experience' },
 ];
 
 const brands = [
-  'Samsung', 'iPhone', 'Realme', 'Redmi / Mi',
-  'OnePlus', 'Vivo', 'Oppo', 'Motorola', 'Nokia', 'Poco', 'iQOO', 'Tecno',
+  'Samsung', 'Realme', 'Redmi / Mi',
+  'OnePlus', 'Vivo', 'Oppo', 'Motorola', 'Nokia', 'Poco', 'iQOO', 
 ];
 
 const services = [
@@ -26,13 +26,13 @@ const services = [
 const whyUs = [
   { icon: '⚡', title: 'Same-Day Repair', desc: 'Most repairs completed within 1–2 hours while you wait.' },
   { icon: '✅', title: 'Genuine Parts', desc: 'Original or OEM-quality parts with 30-day warranty on all repairs.' },
-  { icon: '💰', title: 'Fixed Pricing', desc: 'Price is confirmed before work starts. No hidden charges ever.' },
-  { icon: '👨‍🔧', title: 'Expert Technicians', desc: 'Skilled team with 10+ years handling all types of repairs.' },
+  { icon: '💰', title: 'Affordable Price', desc: 'Best repair prices in Orathanadu. No hidden charges ever.' },
+  { icon: '👨‍🔧', title: 'Expert Technicians', desc: 'Skilled team with 5+ years handling all types of repairs.' },
 ];
 
 const testimonials = [
   { name: 'Ravi Kumar', rating: 5, text: 'Screen replaced in just 1 hour. Excellent work and very reasonable price. Highly recommend Periyar Mobiles!' },
-  { name: 'Priya S', rating: 5, text: 'My iPhone battery was dead. They replaced it same day. Super fast service and honest pricing.' },
+  { name: 'Priya S', rating: 5, text: 'My phone battery was dead. They replaced it same day. Super fast service and honest pricing.' },
   { name: 'Murugan T', rating: 5, text: 'Water damage repair done professionally. They saved my phone. Very trustworthy shop!' },
 ];
 

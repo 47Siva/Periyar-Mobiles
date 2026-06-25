@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import logo from '../assets/logo.jpg';
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
 
@@ -27,9 +28,12 @@ export default function Navbar() {
   return (
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__container">
-        <Link to="/" className="navbar__logo">
+        {/* <Link to="/" className="navbar__logo">
           <span className="navbar__logo-icon">📱</span>
           <span className="navbar__logo-text">Periyar Mobiles</span>
+        </Link> */}
+        <Link to="/" className="navbar__logo">
+          <img src={logo} alt="Periyar Mobiles" className="navbar__logo-img" />
         </Link>
 
         <nav className={`navbar__nav ${menuOpen ? 'navbar__nav--open' : ''}`}>

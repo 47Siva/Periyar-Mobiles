@@ -61,7 +61,7 @@ export default function Contact() {
             <div className="contact-card">
               <div className="contact-card__icon">📍</div>
               <h3>Visit Us</h3>
-              <p>Main Road, Erode<br />Tamil Nadu – 638001</p>
+              <p>Periyar Silai, Orathanadu<br />Tamil Nadu – 614625</p>
               <a href="https://www.google.com/maps/place/Periyar+Mobiles/@10.627159,79.2482549,93m/data=!3m1!1e3!4m6!3m5!1s0x3baab1b14a0328b7:0xd666afbdb3a4ff6d!8m2!3d10.6271584!4d79.2484887!16s%2Fg%2F11qb3bv8l3?entry=ttu&g_ep=EgoyMDI2MDYyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer" className="contact-card__action">Get directions →</a>
             </div>
             <div className="contact-card">
@@ -92,9 +92,9 @@ export default function Contact() {
                 </div>
               </div>
               <div className="nearby-landmarks">
-                <span className="landmark">🏥 Near City Hospital</span>
-                <span className="landmark">🏬 Opposite Bus Stand</span>
-                <span className="landmark">🅿️ Free Parking Available</span>
+                <span className="landmark">🏦 Near Indian Bank</span>
+                <span className="landmark">🛣️ Periyar Silai, Orathanadu Bus Stop</span>
+                <span className="landmark">🎓 Near Government Women's College</span>
               </div>
             </div>
 
@@ -126,11 +126,11 @@ export default function Contact() {
                     </tr>
                     <tr>
                       <td>Saturday</td>
-                      <td><span className="open-badge">Open</span> 9:30 AM – 8:30 PM</td>
+                      <td><span className="open-badge">Open</span> 9:30 AM – 9:30 PM</td>
                     </tr>
                     <tr>
                       <td>Sunday</td>
-                      <td><span className="open-badge">Open</span> 10:30 AM – 7:30 PM</td>
+                      <td><span className="open-badge">Open</span> 9:30 AM – 9:30 PM</td>
                     </tr>
                   </tbody>
                 </table>
