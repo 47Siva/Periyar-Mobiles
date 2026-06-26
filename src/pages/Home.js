@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 
 const stats = [
-  { num: '2500+', label: 'Phones Repaired' },
+  { num: '2500+', label: 'Repairs Completed' },
   { num: '30 Days', label: 'Service Warranty' },
-  { num: '1–2 Hrs', label: 'Most Repairs Done' },
-  { num: '5+', label: 'Years Experience' },
+  { num: '1–2 Hrs', label: 'Fast Turnaround' },
+  { num: '5+', label: 'Years of Experience' },
 ];
 
 const brands = [
@@ -42,48 +42,48 @@ export default function Home() {
       {/* Hero */}
       <section className="hero">
         <div className="hero__container">
-          <div className="hero__content">
-            <span className="hero__badge">⭐ Trusted Service Center in Orathanadu</span>
+          <div className="hero__content hero__content--animate">
+            <span className="hero__badge">⭐ Trusted Mobile Repair Center in Orathanadu</span>
             <h1 className="hero__title">
-              Your phone fixed <span className="hero__title-accent">fast</span>, done right.
+              Fast, reliable phone repair for every brand.
             </h1>
             <p className="hero__desc">
-              Screen cracks, battery drains, charging issues — we repair all major brands with genuine parts and a 30-day service warranty. Walk in anytime!
+              From cracked screens to battery and charging issues, we repair phones quickly using genuine parts and offer a 30-day service warranty. Visit us today for honest service and transparent pricing.
             </p>
             <div className="hero__actions">
               <Link to="/booking" className="btn btn--primary btn--lg">
-                📅 Book Appointment
+                📅 Book an Appointment
               </Link>
               <Link to="/services" className="btn btn--outline btn--lg">
-                View Services & Pricing
+                Explore Our Services
               </Link>
             </div>
             <div className="hero__contact-strip">
               <a href="tel:+918072404851" className="contact-chip">📞 Call Us</a>
               <a href="https://wa.me/918072404851" className="contact-chip contact-chip--green" target="_blank" rel="noreferrer">💬 WhatsApp</a>
-              <span className="contact-chip contact-chip--muted">📍 Near Indian Bank, Periyar Silai, Orathanadu, Thanjavur, TN ,614625</span>
+              <span className="contact-chip contact-chip--muted">📍 Near Indian Bank, Periyar Silai, Orathanadu, Thanjavur, Tamil Nadu 614625</span>
             </div>
           </div>
-          <div className="hero__visual">
+          <div className="hero__visual hero__visual--animate">
             <div className="hero__phone-card">
               <div className="phone-card__icon">📱</div>
               <div className="phone-card__text">
                 <strong>Free Diagnosis</strong>
-                <span>Walk in — we check for free</span>
+                <span>Walk in and we will inspect your phone at no cost</span>
               </div>
             </div>
             <div className="hero__phone-card hero__phone-card--offset">
               <div className="phone-card__icon">🛡️</div>
               <div className="phone-card__text">
                 <strong>30-Day Warranty</strong>
-                <span>On all repairs</span>
+                <span>On all completed repairs</span>
               </div>
             </div>
             <div className="hero__phone-card hero__phone-card--offset2">
               <div className="phone-card__icon">⚡</div>
               <div className="phone-card__text">
-                <strong>Same-Day Repair</strong>
-                <span>Most done in 1–2 hrs</span>
+                <strong>Quick Service</strong>
+                <span>Most repairs completed within 1–2 hours</span>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function Home() {
       <section className="stats">
         <div className="stats__container">
           {stats.map((s, i) => (
-            <div className="stat" key={i}>
+            <div className="stat reveal-card" key={i} style={{ animationDelay: `${i * 120}ms` }}>
               <span className="stat__num">{s.num}</span>
               <span className="stat__label">{s.label}</span>
             </div>
@@ -103,16 +103,16 @@ export default function Home() {
       </section>
 
       {/* Services */}
-      <section className="section">
+      <section className="section section--services">
         <div className="section__container">
           <div className="section__header">
-            <span className="section__eyebrow">What We Fix</span>
-            <h2 className="section__title">Repair Services</h2>
-            <p className="section__sub">We handle all types of mobile phone repairs — hardware and software.</p>
+            <span className="section__eyebrow">Our Services</span>
+            <h2 className="section__title">Phone Repair Services</h2>
+            <p className="section__sub">We provide expert repair services for both hardware and software issues across a wide range of smartphone brands.</p>
           </div>
           <div className="services-grid">
             {services.map((s, i) => (
-              <div className="service-card" key={i}>
+              <div className="service-card reveal-card" key={i} style={{ animationDelay: `${i * 110}ms` }}>
                 <div className="service-card__icon">{s.icon}</div>
                 <h3 className="service-card__title">{s.title}</h3>
                 <p className="service-card__desc">{s.desc}</p>
@@ -120,7 +120,7 @@ export default function Home() {
             ))}
           </div>
           <div className="section__cta">
-            <Link to="/services" className="btn btn--primary">See All Services & Pricing →</Link>
+            <Link to="/services" className="btn btn--primary">View All Services & Pricing →</Link>
           </div>
         </div>
       </section>
@@ -129,27 +129,27 @@ export default function Home() {
       <section className="section section--gray">
         <div className="section__container">
           <div className="section__header">
-            <span className="section__eyebrow">Brands We Repair</span>
-            <h2 className="section__title">All Major Brands Covered</h2>
+            <span className="section__eyebrow">Supported Brands</span>
+            <h2 className="section__title">We Repair All Major Smartphone Brands</h2>
           </div>
           <div className="brands-grid">
             {brands.map((b, i) => (
-              <div className="brand-chip" key={i}>{b}</div>
+              <div className="brand-chip reveal-card" key={i} style={{ animationDelay: `${i * 80}ms` }}>{b}</div>
             ))}
           </div>
         </div>
       </section>
 
       {/* Why Us */}
-      <section className="section">
+      <section className="section section--why-us">
         <div className="section__container">
           <div className="section__header">
             <span className="section__eyebrow">Why Choose Us</span>
-            <h2 className="section__title">The Periyar Mobiles Difference</h2>
+            <h2 className="section__title">Why Customers Choose Periyar Mobiles</h2>
           </div>
           <div className="why-grid">
             {whyUs.map((w, i) => (
-              <div className="why-card" key={i}>
+              <div className="why-card reveal-card" key={i} style={{ animationDelay: `${i * 110}ms` }}>
                 <div className="why-card__icon">{w.icon}</div>
                 <h3 className="why-card__title">{w.title}</h3>
                 <p className="why-card__desc">{w.desc}</p>
@@ -163,14 +163,14 @@ export default function Home() {
       <section className="section section--gray">
         <div className="section__container">
           <div className="section__header">
-            <span className="section__eyebrow">Customer Reviews</span>
-            <h2 className="section__title">What Our Customers Say</h2>
+            <span className="section__eyebrow">Customer Feedback</span>
+            <h2 className="section__title">What Our Customers Say About Us</h2>
           </div>
           <div className="testimonials-grid">
             {testimonials.map((t, i) => (
-              <div className="testimonial-card" key={i}>
+              <div className="testimonial-card reveal-card" key={i} style={{ animationDelay: `${i * 120}ms` }}>
                 <div className="testimonial-card__stars">{'⭐'.repeat(t.rating)}</div>
-                <p className="testimonial-card__text">"{t.text}"</p>
+                <p className="testimonial-card__text">{t.text}</p>
                 <span className="testimonial-card__name">— {t.name}</span>
               </div>
             ))}
@@ -180,12 +180,12 @@ export default function Home() {
 
       {/* CTA Banner */}
       <section className="cta-banner">
-        <div className="cta-banner__container">
-          <h2>Ready to fix your phone?</h2>
-          <p>Walk in or book an appointment — we're here to help Monday to Saturday.</p>
+        <div className="cta-banner__container reveal-card">
+          <h2>Need help with your phone?</h2>
+          <p>Visit us today or book an appointment — we are here to help you every weekday.</p>
           <div className="cta-banner__actions">
-            <Link to="/booking" className="btn btn--white btn--lg">📅 Book Appointment</Link>
-            <Link to="/contact" className="btn btn--outline-white btn--lg">📍 Find Us</Link>
+            <Link to="/booking" className="btn btn--white btn--lg">📅 Book an Appointment</Link>
+            <Link to="/contact" className="btn btn--outline-white btn--lg">📍 Contact Us</Link>
           </div>
         </div>
       </section>

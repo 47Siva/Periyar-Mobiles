@@ -34,10 +34,27 @@
 
 body {
   font-family: var(--font);
-  color: var(--gray-900);
-  background: var(--gray-100);
+  color: #eaf4ff;
+  background:
+    radial-gradient(circle at top left, rgba(59, 130, 246, 0.28), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(8, 47, 73, 0.8), transparent 35%),
+    linear-gradient(135deg, #07111f 0%, #0d1b2d 45%, #13253d 100%);
+  background-attachment: fixed;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: url('./assets/mobile-repair-bg.svg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.16;
+  z-index: -1;
 }
 
 a {

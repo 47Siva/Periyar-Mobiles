@@ -1,7 +1,11 @@
-.contact-page {}
+.contact-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #020817 0%, #071120 45%, #0f172a 100%);
+  color: #f8fafc;
+}
 
 .page-header {
-  background: linear-gradient(135deg, #042C53, #185FA5);
+  background: linear-gradient(135deg, #03162b, #0b3d64 55%, #145a92 100%);
   padding: 3.5rem 0 3rem;
   color: #fff;
   text-align: center;
@@ -40,7 +44,7 @@
 
 .contact-section {
   padding: 2.5rem 0 4rem;
-  background: var(--gray-50);
+  background: rgba(2, 8, 23, 0.95);
 }
 
 .contact-section__container {
@@ -57,8 +61,8 @@
 }
 
 .contact-card {
-  background: #fff;
-  border: 1px solid var(--gray-200);
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.2);
   border-radius: var(--radius-lg);
   padding: 1.25rem;
   display: flex;
@@ -77,14 +81,14 @@
 }
 
 .contact-card--green {
-  background: #EAF3DE;
-  border-color: var(--green-100);
+  background: rgba(6, 78, 59, 0.35);
+  border-color: rgba(16, 185, 129, 0.25);
 }
 
 .contact-card__icon { font-size: 28px; }
-.contact-card h3 { font-size: 15px; font-weight: 600; color: var(--gray-900); }
-.contact-card p { font-size: 14px; color: var(--gray-600); line-height: 1.5; }
-.contact-card__action { font-size: 13px; color: var(--blue-600); font-weight: 500; margin-top: 4px; }
+.contact-card h3 { font-size: 15px; font-weight: 600; color: #f8fafc; }
+.contact-card p { font-size: 14px; color: #cbd5e1; line-height: 1.5; }
+.contact-card__action { font-size: 13px; color: #60a5fa; font-weight: 500; margin-top: 4px; }
 
 .contact-bottom {
   display: grid;
@@ -97,11 +101,12 @@
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 1rem;
+  color: #f8fafc;
 }
 
 .map-placeholder {
-  background: linear-gradient(135deg, var(--blue-50), #fff);
-  border: 1px solid var(--blue-100);
+  background: linear-gradient(135deg, rgba(30, 64, 175, 0.28), rgba(15, 23, 42, 0.95));
+  border: 1px solid rgba(96, 165, 250, 0.25);
   border-radius: var(--radius-lg);
   height: 220px;
   display: flex;
@@ -119,8 +124,8 @@
 }
 
 .map-pin { font-size: 36px; }
-.map-placeholder__inner strong { font-size: 16px; font-weight: 600; }
-.map-placeholder__inner span { font-size: 13px; color: var(--gray-600); }
+.map-placeholder__inner strong { font-size: 16px; font-weight: 600; color: #f8fafc; }
+.map-placeholder__inner span { font-size: 13px; color: #cbd5e1; }
 
 .nearby-landmarks {
   display: flex;
@@ -129,12 +134,12 @@
 }
 
 .landmark {
-  background: #fff;
-  border: 1px solid var(--gray-200);
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.2);
   border-radius: 20px;
   padding: 5px 12px;
   font-size: 12px;
-  color: var(--gray-600);
+  color: #cbd5e1;
 }
 
 .info-column {
@@ -144,8 +149,8 @@
 }
 
 .info-card {
-  background: #fff;
-  border: 1px solid var(--gray-200);
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.2);
   border-radius: var(--radius-lg);
   padding: 1.25rem;
 }
@@ -154,6 +159,7 @@
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 1rem;
+  color: #f8fafc;
 }
 
 .hours-table {
@@ -168,15 +174,15 @@
 }
 
 .hours-table td:first-child {
-  color: var(--gray-600);
+  color: #94a3b8;
   width: 40%;
 }
 
 .hours-table tr:last-child td { border-bottom: none; }
 
 .open-badge {
-  background: var(--green-50);
-  color: var(--green-600);
+  background: rgba(16, 185, 129, 0.18);
+  color: #86efac;
   font-size: 10px;
   font-weight: 600;
   padding: 2px 7px;
@@ -185,8 +191,8 @@
 }
 
 .closed-badge {
-  background: var(--red-50);
-  color: var(--red-600);
+  background: rgba(239, 68, 68, 0.16);
+  color: #fda4af;
   font-size: 10px;
   font-weight: 600;
   padding: 2px 7px;
@@ -203,11 +209,12 @@
 .contact-form input,
 .contact-form textarea {
   padding: 9px 12px;
-  border: 1px solid var(--gray-200);
+  border: 1px solid rgba(148, 163, 184, 0.25);
   border-radius: var(--radius-sm);
   font-size: 13px;
   font-family: var(--font);
-  color: var(--gray-900);
+  color: #f8fafc;
+  background: rgba(2, 8, 23, 0.8);
   outline: none;
   transition: border-color 0.15s;
 }
@@ -220,12 +227,12 @@
 .contact-form textarea { resize: vertical; }
 
 .msg-success {
-  background: var(--green-50);
-  border: 1px solid var(--green-100);
+  background: rgba(6, 78, 59, 0.35);
+  border: 1px solid rgba(16, 185, 129, 0.25);
   border-radius: var(--radius-md);
   padding: 0.75rem 1rem;
   font-size: 14px;
-  color: var(--green-600);
+  color: #86efac;
   text-align: center;
 }
 
@@ -255,8 +262,8 @@
 
 /* FAQ */
 .faq-section {
-  background: #fff;
-  border: 1px solid var(--gray-200);
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.2);
   border-radius: var(--radius-lg);
   padding: 1.75rem;
 }
@@ -265,6 +272,7 @@
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 1.25rem;
+  color: #f8fafc;
 }
 
 .faq-list {
@@ -274,7 +282,7 @@
 }
 
 .faq-item {
-  border-bottom: 1px solid var(--gray-100);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18);
 }
 
 .faq-item:last-child { border-bottom: none; }
@@ -291,22 +299,22 @@
   font-family: var(--font);
   font-size: 14px;
   font-weight: 500;
-  color: var(--gray-900);
+  color: #f8fafc;
   text-align: left;
   gap: 1rem;
 }
 
-.faq-question:hover { color: var(--blue-600); }
+.faq-question:hover { color: #60a5fa; }
 
 .faq-chevron {
   font-size: 10px;
-  color: var(--gray-500);
+  color: #94a3b8;
   flex-shrink: 0;
 }
 
 .faq-answer {
   font-size: 14px;
-  color: var(--gray-600);
+  color: #cbd5e1;
   line-height: 1.7;
   padding: 0 0 1rem;
 }

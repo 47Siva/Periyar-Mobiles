@@ -1,4 +1,5 @@
 import React from 'react';
+import WaveBackground from './components/WaveBackground';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -14,6 +15,10 @@ function App() {
       <div className="app-wrapper">
         <Navbar />
         <main className="main-content">
+          <WaveBackground />
+          <Routes>
+            ...
+          </Routes>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
