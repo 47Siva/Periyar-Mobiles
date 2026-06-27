@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b418155.css",
-    "main.js": "/static/js/main.235d0046.js",
+    "main.css": "/static/css/main.2be6e55f.css",
+    "main.js": "/static/js/main.b956679f.js",
     "static/media/logo.jpg": "/static/media/logo.a68e6757ad37c369090f.jpg",
     "static/media/mobile-repair-bg.svg": "/static/media/mobile-repair-bg.a3cec0bccad5a34d4377.svg",
     "index.html": "/index.html",
-    "main.4b418155.css.map": "/static/css/main.4b418155.css.map",
-    "main.235d0046.js.map": "/static/js/main.235d0046.js.map"
+    "main.2be6e55f.css.map": "/static/css/main.2be6e55f.css.map",
+    "main.b956679f.js.map": "/static/js/main.b956679f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b418155.css",
-    "static/js/main.235d0046.js"
+    "static/css/main.2be6e55f.css",
+    "static/js/main.b956679f.js"
   ]
 }
