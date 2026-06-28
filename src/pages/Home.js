@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 
 const stats = [
-  { num: '2500+', label: 'Repairs Completed' },
+  { num: '10000+', label: 'Repairs Completed' },
   { num: '30 Days', label: 'Service Warranty' },
   { num: '1–2 Hrs', label: 'Fast Turnaround' },
   { num: '5+', label: 'Years of Experience' },
